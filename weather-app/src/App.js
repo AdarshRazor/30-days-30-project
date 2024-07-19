@@ -34,7 +34,7 @@ function App() {
             value={city}
             onChange={e => setcity(e.target.value)}
           />
-          <Button variant="outline-secondary" id="button-addon2" type="submit">
+          <Button variant="success" id="button-addon2" type="submit">
             Button
           </Button>
         </InputGroup>
