@@ -1,0 +1,40 @@
+.hometitle {
+  font-family: "Comic Neue", cursive;
+  font-weight: 800;
+  font-size: 5rem;
+  font-style: normal;
+  color: rgb(255, 42, 42);
+}
+
+.container {
+  text-align: center;
+}
+
+.homesubtitle {
+  font-family: "Comic Neue", cursive;
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: normal;
+  color: rgb(63, 220, 63);
+}
+
+.itemsinlist {
+  display: flex;
+  align-items: center;
+}
+
+.itemsinlist input[type="checkbox"] {
+  margin-right: 10px; /* Adjust the space between the checkbox and the text as needed */
+}
+
+.listbox {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.completed {
+  color: green !important;
+  text-decoration: line-through;
+}
